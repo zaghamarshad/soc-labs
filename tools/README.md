@@ -6,5 +6,3 @@ Each file contains:
 - Common commands
 - Example usage in SOC labs
 - notes
-
-This serves as a quick reference for daily SOC operations.
