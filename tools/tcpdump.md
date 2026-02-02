@@ -1,3 +1,4 @@
 
-*tcpdump -D 
+# tcpdump -D 
+
 to show which interfaces are available 
