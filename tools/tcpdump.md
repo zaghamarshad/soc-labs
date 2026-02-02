@@ -30,5 +30,10 @@ sudo tcpdump -i lo
 
 on specific port
 ```bash
-sudo tcpdump -i lo port 555
+sudo tcpdump -i lo port 5555
+```
+
+We can setup server client connection using `NetCat` Command -options l for listen v verbose and p is port
+```bash
+nc -lvp 5555
 ```
