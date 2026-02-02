@@ -20,15 +20,4 @@ The `-D` option lists all the interfaces on your machine that `tcpdump` can capt
 ### Example Output:
 Below is an example of what the output might look like:
 
-```
-1.ens33 [Up, Running, Connected]
-2.any (Pseudo-device that captures on all interfaces) [Up, Running]
-3.lo [Up, Running, Loopback]
-4.bluetooth-monitor (Bluetooth Linux Monitor) [Wireless]
-5.nflog (Linux netfilter log (NFLOG) interface) [none]
-6.nfqueue (Linux netfilter queue (NFQUEUE) interface) [none]
-7.dbus-system (D-Bus system bus) [none]
-8.dbus-session (D-Bus session bus) [none]
-
-```
-
+<img width="700" height="203" alt="Screenshot 2026-02-02 at 3 23 17 PM" src="https://github.com/user-attachments/assets/21cfa9b9-1014-44dc-9cb0-b8f6c91537bb" />
