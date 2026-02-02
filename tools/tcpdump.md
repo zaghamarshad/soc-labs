@@ -27,3 +27,8 @@ Below is an example of what the output might look like:
 ```bash
 sudo tcpdump -i lo
 ```
+
+on specific port
+```bash
+sudo tcpdump -i lo port 555
+```
