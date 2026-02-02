@@ -5,6 +5,6 @@ Each file contains:
 - What the tool is used for
 - Common commands
 - Example usage in SOC labs
-- Analyst notes
+- notes
 
 This serves as a quick reference for daily SOC operations.
