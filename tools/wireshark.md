@@ -16,3 +16,15 @@ arp
 
 ![Network Discovery Screenshot](image.png)
 
+Wi-Fi turns ON
+
+My Macbook gets IP: 10.0.0.117
+
+My Macbook asks: “Who is 10.0.0.1?”
+
+Router replies with MAC
+
+My Macbook announces itself
+
+ARP refresh & validation
+
