@@ -1,10 +1,18 @@
-Network Discovery (ARP & Gateway Behavior)
+# Network Discovery (ARP & Gateway Behavior)
 
-Goal: Understand how my Mac finds the router
+## Goal
+Understand how my Mac finds the router
 
-I will use Capture filter before starting wireshark capturing 
+## Setup
+
+### Capture Filter
+Use the following capture filter before starting Wireshark:
 
 ```bash
 arp
-````
-![alt text](image.png)
+```
+
+## Results
+
+![Network Discovery Screenshot](image.png)
+
