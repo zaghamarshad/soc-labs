@@ -26,7 +26,7 @@ The main goals of this lab were:
 
 ##  Lab Architecture
 
-![Network Discovery Screenshot](image.png)
+![alt text](lab.png)
 
 ```
 Client VM (NAT)
