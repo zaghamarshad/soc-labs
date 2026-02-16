@@ -12,9 +12,10 @@ Use the following capture filter before starting Wireshark:
 arp
 ```
 
+
 ## Results
 
-![Network Discovery Screenshot](image.png)
+
 
 Wi-Fi turns ON
 
