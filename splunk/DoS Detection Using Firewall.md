@@ -26,7 +26,7 @@ The main goals of this lab were:
 
 ##  Lab Architecture
 
-![alt text](lab.png)
+![alt text](images/lab.png)
 
 ```
 Client VM (NAT)
@@ -227,11 +227,11 @@ index=suricata event_type=alert
 
 ---
 ## Results
-![alt text](<Screenshot 2026-02-16 at 6.57.49 PM.png>)
 
-![alt text](<Screenshot 2026-02-16 at 6.55.22 PM.png>)
+![alt text](<images/Screenshot 2026-02-16 at 6.57.49 PM.png>)
+![alt text](<imaages/Screenshot 2026-02-16 at 6.55.22 PM.png>)
 
-![alt text](<Screenshot 2026-02-16 at 6.51.56 PM.png>)
+![alt text](<images/Screenshot 2026-02-16 at 6.51.56 PM.png>)
 
 
 ---
