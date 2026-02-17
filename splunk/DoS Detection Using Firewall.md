@@ -1,4 +1,7 @@
 # SOC Lab Project: DoS Detection Using Firewall, Suricata IDS, and Splunk
+## What I did
+
+I built an isolated lab to study denial-of-service behavior from a defensive perspective, focusing on logging, detection patterns, SIEM alerts, and firewall-based mitigation rather than attack execution.
 
 ## Project Overview
 
@@ -229,7 +232,7 @@ index=suricata event_type=alert
 ## Results
 
 ![alt text](<images/Screenshot 2026-02-16 at 6.57.49 PM.png>)
-![alt text](<imaages/Screenshot 2026-02-16 at 6.55.22 PM.png>)
+![alt text](<images/Screenshot 2026-02-16 at 6.55.22 PM.png>)
 
 ![alt text](<images/Screenshot 2026-02-16 at 6.51.56 PM.png>)
 
