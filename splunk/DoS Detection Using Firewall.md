@@ -108,7 +108,7 @@ sudo ip route add 192.168.56.0/24 via 192.168.96.198
 
 ---
 
-## 🔐 Firewall Configuration (iptables)
+##  Firewall Configuration (iptables)
 
 ### Enable IP Forwarding
 
@@ -224,6 +224,15 @@ index=firewall
 index=suricata event_type=alert
 | stats count by src_ip alert.signature
 ```
+
+---
+## Results
+![alt text](<Screenshot 2026-02-16 at 6.57.49 PM.png>)
+
+![alt text](<Screenshot 2026-02-16 at 6.55.22 PM.png>)
+
+![alt text](<Screenshot 2026-02-16 at 6.51.56 PM.png>)
+
 
 ---
 
