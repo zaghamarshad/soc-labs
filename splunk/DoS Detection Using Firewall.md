@@ -274,8 +274,7 @@ This lab reflects **real-world blue team scenarios**, not just textbook examples
 ##  Author
 
 **Zagham Arshad**
-SOC / Blue Team Learner
-Canada 🇨🇦
+
 
 ---
 
