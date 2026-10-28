@@ -28,6 +28,21 @@ All labs are based on real-world SOC scenarios.
 
 ---
 
+## How to read a lab
+
+Each completed lab write-up follows the same order:
+
+- What the lab set out to check, in plain terms
+- The lab layout and tools used
+- Problems hit during setup, and the fix that worked
+- The Splunk queries used, with the log source they ran against
+- Screenshots or results from the run
+- What was learned, including what did not work at first
+
+That order is deliberate. In SOC work the setup and troubleshooting are part of the result, not extra detail.
+
+---
+
 ## 🧰 Tools Used
 - Splunk
 - Windows Event Logs
