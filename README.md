@@ -41,6 +41,16 @@ Each completed lab write-up follows the same order:
 
 That order is deliberate. In SOC work the setup and troubleshooting are part of the result, not extra detail.
 
+## Writing up a new lab
+
+When a new lab is added, keep the same order:
+
+- State the goal in one or two plain sentences before any query.
+- Name the log source and the time range the search covered.
+- Paste the exact SPL used, not a cleaned up version, so the result can be repeated.
+- Note any setup problem and the fix, even when the fix was simple.
+- End with what the result showed and what would be checked next.
+
 ---
 
 ## 🧰 Tools Used
