@@ -51,6 +51,15 @@ When a new lab is added, keep the same order:
 - Note any setup problem and the fix, even when the fix was simple.
 - End with what the result showed and what would be checked next.
 
+## Checking a detection before trusting it
+
+A query that returns results is not yet a detection worth relying on. Before a lab result is treated as real, check it in this order:
+
+- Run the same query on a time range with no known test event and note what it returns. Hits there are false positives to explain, not ignore.
+- Confirm the log source actually covers the host or user in the event. A silent gap in logging can look like a clean result.
+- Check the time zone and time range on both the log source and the search, so an event is not missed by an hour offset.
+- Keep one known test event for each detection, so the query can be rerun after a change to confirm it still fires.
+
 ---
 
 ## 🧰 Tools Used
