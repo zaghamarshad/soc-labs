@@ -60,6 +60,15 @@ A query that returns results is not yet a detection worth relying on. Before a l
 - Check the time zone and time range on both the log source and the search, so an event is not missed by an hour offset.
 - Keep one known test event for each detection, so the query can be rerun after a change to confirm it still fires.
 
+## Tuning a noisy detection
+
+When a detection fires too often to review, tune it before turning it down or off:
+
+- Count the hits by host and by user first. Noise often comes from one service account, one scanner, or one admin tool, not from the rule itself.
+- Read a few of the noisy events in full and write down what makes them normal, such as the parent process, the source address, or the time of day.
+- Exclude only that narrow pattern, then rerun the known test event to confirm the detection still fires on real activity.
+- Note the exclusion and the reason in the lab write-up, so a later reader knows the gap was a choice, not an oversight.
+
 ---
 
 ## 🧰 Tools Used
