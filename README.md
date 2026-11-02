@@ -69,6 +69,15 @@ When a detection fires too often to review, tune it before turning it down or of
 - Exclude only that narrow pattern, then rerun the known test event to confirm the detection still fires on real activity.
 - Note the exclusion and the reason in the lab write-up, so a later reader knows the gap was a choice, not an oversight.
 
+## Handing a lab finding to the next shift
+
+When a lab result is passed on, the next analyst should not have to rerun the search to understand it:
+
+- Give the exact query, the log source, and the time range that was searched.
+- List the hosts and users in the result, and say what was checked and ruled out.
+- Say what should be checked next and by when, in plain terms.
+- Link the write-up and any saved screenshots, so the record stands on its own.
+
 ---
 
 ## 🧰 Tools Used
