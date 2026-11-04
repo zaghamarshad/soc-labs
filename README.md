@@ -78,6 +78,17 @@ When a lab result is passed on, the next analyst should not have to rerun the se
 - Say what should be checked next and by when, in plain terms.
 - Link the write-up and any saved screenshots, so the record stands on its own.
 
+
+## Recording what a lab did not cover
+
+A clean result only covers the logs that were actually searched. At the end of a write-up, note the gaps as plainly as the result:
+
+- Name any log source that was missing, not enabled, or empty for the time range searched.
+- Name any host, user group, or event type the lab did not test.
+- Say which check would close the gap, such as turning on the missing log source and rerunning the same query.
+
+Writing the gap down stops a later reader from treating a partial search as full coverage.
+
 ---
 
 ## 🧰 Tools Used
