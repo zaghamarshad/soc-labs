@@ -89,6 +89,10 @@ A clean result only covers the logs that were actually searched. At the end of a
 
 Writing the gap down stops a later reader from treating a partial search as full coverage.
 
+## Keeping the lab files in order
+
+Each lab keeps its own folder with the write-up, the exact queries used, and any screenshots or exports from the run. Name files with the lab name and the date of the run, so a rerun a month later can sit next to the first run without overwriting it. When a query changes between runs, keep both versions and note which run each one belongs to.
+
 ---
 
 ## 🧰 Tools Used
