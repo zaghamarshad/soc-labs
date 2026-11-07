@@ -93,6 +93,15 @@ Writing the gap down stops a later reader from treating a partial search as full
 
 Each lab keeps its own folder with the write-up, the exact queries used, and any screenshots or exports from the run. Name files with the lab name and the date of the run, so a rerun a month later can sit next to the first run without overwriting it. When a query changes between runs, keep both versions and note which run each one belongs to.
 
+
+## Retesting after a log source changes
+
+When a log source is renamed, a forwarder is moved, or a field format changes, a detection can go quiet without anything being wrong on the hosts:
+
+- Rerun the known test event first and confirm it still appears in the new source with the fields the query expects.
+- Compare the hit count for a normal day before and after the change, and note any drop that the change explains.
+- Update the write-up with the new source name and the date of the change, so older results stay readable.
+
 ---
 
 ## 🧰 Tools Used
