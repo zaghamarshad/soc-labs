@@ -102,6 +102,15 @@ When a log source is renamed, a forwarder is moved, or a field format changes, a
 - Compare the hit count for a normal day before and after the change, and note any drop that the change explains.
 - Update the write-up with the new source name and the date of the change, so older results stay readable.
 
+## When a rerun gives a different result
+
+If the same query on the same time range returns a different count on a rerun, do not just replace the old result:
+
+- Check for late arriving logs first. A source that was still indexing during the first run can add events afterwards.
+- Check that the time range, time zone, and log source are exactly the same as the first run.
+- Check whether the query or a field extraction changed between runs, and keep both versions if it did.
+- Note both counts and the reason found in the write-up, so the change is explained rather than hidden.
+
 ---
 
 ## 🧰 Tools Used
