@@ -111,6 +111,14 @@ If the same query on the same time range returns a different count on a rerun, d
 - Check whether the query or a field extraction changed between runs, and keep both versions if it did.
 - Note both counts and the reason found in the write-up, so the change is explained rather than hidden.
 
+## Separating test events from real activity
+
+Labs rely on known test events, but those events should not be counted as findings:
+
+- Note the test host, user, and time in the write-up before running the search, so the test can be told apart later.
+- Leave test events out of the hit counts reported for real activity, and say in the write-up that they were left out.
+- If a search returns only the test event, report that plainly. The detection fired, but no real activity was found in that range.
+
 ---
 
 ## 🧰 Tools Used
