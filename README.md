@@ -119,6 +119,14 @@ Labs rely on known test events, but those events should not be counted as findin
 - Leave test events out of the hit counts reported for real activity, and say in the write-up that they were left out.
 - If a search returns only the test event, report that plainly. The detection fired, but no real activity was found in that range.
 
+## Starting a search with a narrow window
+
+Before running a query over a full day or week, start with a short window around a known event:
+
+- Pick a window of a few minutes around the test event and confirm the event appears with the fields the query needs.
+- If it does not appear, fix the source, time zone, or field problem on the small window first. It is faster to check and costs less search time.
+- Only widen the window once the small search is correct, and note the wider range used in the write-up.
+
 ---
 
 ## 🧰 Tools Used
