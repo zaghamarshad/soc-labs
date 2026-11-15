@@ -127,6 +127,14 @@ Before running a query over a full day or week, start with a short window around
 - If it does not appear, fix the source, time zone, or field problem on the small window first. It is faster to check and costs less search time.
 - Only widen the window once the small search is correct, and note the wider range used in the write-up.
 
+## Saving a query for reuse
+
+When a lab query is worth keeping, save it with the notes a later run will need:
+
+- Save the exact SPL, the log source it ran against, and the time range it expects.
+- Add a short note on what a normal result looks like, so a later reader can tell a quiet day from a broken search.
+- Update the saved copy when the query changes, and keep the older version with its run date.
+
 ---
 
 ## 🧰 Tools Used
