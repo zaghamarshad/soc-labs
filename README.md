@@ -135,6 +135,14 @@ When a lab query is worth keeping, save it with the notes a later run will need:
 - Add a short note on what a normal result looks like, so a later reader can tell a quiet day from a broken search.
 - Update the saved copy when the query changes, and keep the older version with its run date.
 
+## Checking a field before relying on it
+
+A query is only as good as the fields it filters on. Before trusting a result that depends on one field:
+
+- Run a short search on the same source and confirm the field is present and holds the kind of value expected, such as a user name, host name, or status code.
+- Check a few raw events by hand. A field can be present but hold a different format after a source change.
+- If the field is missing or empty for part of the range, note that in the write-up instead of treating the missing part as no activity.
+
 ---
 
 ## 🧰 Tools Used
