@@ -143,6 +143,14 @@ A query is only as good as the fields it filters on. Before trusting a result th
 - Check a few raw events by hand. A field can be present but hold a different format after a source change.
 - If the field is missing or empty for part of the range, note that in the write-up instead of treating the missing part as no activity.
 
+## Comparing two hosts in the same search
+
+When a search returns hits for more than one host, compare them before treating them as one pattern:
+
+- Count hits per host and check the first and last event time for each, so one busy host does not hide a short run on another.
+- Check whether the same user, source address, and process appear on both hosts, or whether only the query term matches.
+- Note each host separately in the write-up, even when the conclusion is the same, so a later rerun can check them one by one.
+
 ---
 
 ## 🧰 Tools Used
