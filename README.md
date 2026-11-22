@@ -151,6 +151,14 @@ When a search returns hits for more than one host, compare them before treating 
 - Check whether the same user, source address, and process appear on both hosts, or whether only the query term matches.
 - Note each host separately in the write-up, even when the conclusion is the same, so a later rerun can check them one by one.
 
+## Reading the raw event behind a hit
+
+A table of results can hide a parsing problem. Before acting on a hit:
+
+- Open the raw event and check the user, host, and source values match what the table shows.
+- Read the few events just before and just after it on the same host, so the hit is seen in order and not on its own.
+- If the raw event and the table disagree, note the field extraction problem in the write-up and fix that before counting the hits.
+
 ---
 
 ## 🧰 Tools Used
