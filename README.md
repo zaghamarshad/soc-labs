@@ -159,6 +159,16 @@ A table of results can hide a parsing problem. Before acting on a hit:
 - Read the few events just before and just after it on the same host, so the hit is seen in order and not on its own.
 - If the raw event and the table disagree, note the field extraction problem in the write-up and fix that before counting the hits.
 
+## When the search returns nothing
+
+An empty result is a finding, not a mistake, but it has to be checked before it is written up as clean:
+
+- Run a broad search on the same source with no filters and confirm events are arriving for the time range. If the source is empty, the query was never tested.
+- Check the time range and time zone first. A range that misses the event by an hour looks the same as no activity.
+- Check the field name and value spelling in the query against one raw event, since a wrong field name silently filters everything out.
+- Run the known test event for that detection and confirm it appears. A quiet search is only trusted when a test event proves the search can see anything at all.
+- Write down the checks that were run and what each one showed, so an empty result is recorded as checked and clean, not as unchecked.
+
 ---
 
 ## 🧰 Tools Used
