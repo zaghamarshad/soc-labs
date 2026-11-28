@@ -169,6 +169,15 @@ An empty result is a finding, not a mistake, but it has to be checked before it 
 - Run the known test event for that detection and confirm it appears. A quiet search is only trusted when a test event proves the search can see anything at all.
 - Write down the checks that were run and what each one showed, so an empty result is recorded as checked and clean, not as unchecked.
 
+## Checking a hit against a second source
+
+One log source can mislead, so a hit worth acting on gets a second look:
+
+- Pick a second source that would show the same activity, such as the endpoint log for a network hit, and search it for the same host and time window.
+- If both sources agree, note both in the write-up and act on the finding.
+- If the second source shows nothing, say so plainly and check the time range and field names there before deciding the first hit was wrong.
+- A single source hit that cannot be confirmed anywhere else is still worth recording, but mark it as unconfirmed so the next shift does not treat it as proven.
+
 ---
 
 ## 🧰 Tools Used
